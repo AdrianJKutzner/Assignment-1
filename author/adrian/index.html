@@ -60,6 +60,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 .wp-block-post-date{box-sizing:border-box}
 /*# sourceURL=/wp-includes/blocks/post-date/style.min.css */
 </style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="https://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="https://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=/wp-includes/blocks/image/style.min.css */
+</style>
 <style id='wp-block-post-template-inline-css'>
 .wp-block-post-template{box-sizing:border-box;list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container>li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}@media (max-width:600px){.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid{grid-template-columns:1fr}}.wp-block-post-template-is-layout-constrained>li>.alignright,.wp-block-post-template-is-layout-flow>li>.alignright{float:right;margin-inline-end:0;margin-inline-start:2em}.wp-block-post-template-is-layout-constrained>li>.alignleft,.wp-block-post-template-is-layout-flow>li>.alignleft{float:left;margin-inline-end:2em;margin-inline-start:0}.wp-block-post-template-is-layout-constrained>li>.aligncenter,.wp-block-post-template-is-layout-flow>li>.aligncenter{margin-inline-end:auto;margin-inline-start:auto}
 /*# sourceURL=/wp-includes/blocks/post-template/style.min.css */
@@ -71,21 +75,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id='wp-block-navigation-link-inline-css'>
 .wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{outline:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
 /*# sourceURL=/wp-includes/blocks/navigation-link/style.min.css */
-</style>
-<style id='wp-emoji-styles-inline-css'>
-
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-/*# sourceURL=wp-emoji-styles-inline-css */
 </style>
 <style id='wp-block-library-inline-css'>
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
@@ -107,6 +96,31 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
 /*# sourceURL=global-styles-inline-css */
+</style>
+<style id='block-style-variation-styles-inline-css'>
+:root :where(p.is-style-text-subtitle--2){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(p.is-style-text-subtitle--3){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(p.is-style-text-subtitle--4){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(.is-style-text-annotation--5 a:where(:not(.wp-element-button))){text-decoration: none;}:root :where(p.is-style-text-annotation--5){border-radius: 16px;border-color: currentColor;border-width: 1px;border-style: solid;font-size: var(--wp--preset--font-size--small);letter-spacing: normal;line-height: 1.5;padding-top: 0.2rem;padding-right: 0.6rem;padding-bottom: 0.25rem;padding-left: 0.6rem;}:root :where(p.is-style-text-annotation--5){width: fit-content}
+:root :where(p.is-style-text-subtitle--6){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(p.is-style-text-subtitle--7){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(p.is-style-text-subtitle--8){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+/*# sourceURL=block-style-variation-styles-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
 </style>
 <style id='core-block-supports-inline-css'>
 .wp-container-core-navigation-is-layout-fc306653{justify-content:flex-end;}.wp-container-core-group-is-layout-f4c28e8b{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-8165f36a{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-fe9cc265{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-570722b2{gap:var(--wp--preset--spacing--80);justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-e5edad21{justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-91e87306{gap:var(--wp--preset--spacing--20);justify-content:space-between;}
@@ -265,7 +279,29 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
 			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/starting-off/" target="_self" >Starting Off</a></h2>
-			
+			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<p>Starting off a program like this is not an easy task, but we will guide you through it step by step.</p>
+
+
+
+<p>For the first 4-7 weeks you want to prioritize consistency over full effort/ power, leaving room for recovery and rest for the next day. You never want have a hard run and weighted workout on the same day, tho you can insert small easy runs after gym sessions once you feel comfortable.  </p>
+
+
+
+<p>But by far the biggest adjustment you will have to make is your diet. Being aware of what you eat does not take too much work and you will feel the difference. This program requires a calorie surplus and uses a majority of carbohydrates to help fuel those hard workouts. </p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="682" height="1024" src="/undefined/wp-content/uploads/2026/02/image-682x1024.png" alt="" class="wp-image-79" srcset="/wp-content/uploads/2026/02/image-682x1024.png 682w, /wp-content/uploads/2026/02/image-200x300.png 200w, /wp-content/uploads/2026/02/image.png 735w" sizes="(max-width: 682px) 100vw, 682px" /></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p></p>
+</div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2026-02-23T20:15:34-05:00"><a href="/starting-off/">23 February 2026</a></time></div>
 		</div>
 		
@@ -274,7 +310,65 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
 			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/eat-differently/" target="_self" >Eat differently</a></h2>
-			
+			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:9px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Eating differently is where most people fail in terms of this program. You must experiment and find what combos of food work for you based on trial and error, but this is a good starting point.</p>
+
+
+
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--2">Before Exercising </p>
+
+
+
+<p class="is-style-default">Before a workshop focus on getting a proper serving of carbohydrates before. For cardio heavy focus more on carbs and low fiber and fat to avoid discomfort while training. For a more lift centred days, you want a balance of protein and carbs, to help muscle repair and recovery.</p>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--3">Suggested Recipes</p>
+
+
+
+<p>Running- Banana, Jam W/ Toast, Oatmeal, Energy Bar </p>
+
+
+
+<p>Lifting &#8211; Greek Yogurt W/ Fruit, Chicken &amp; Rice, Eggs &amp; Toast</p>
+
+
+
+<div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--4">Helpful Tips</p>
+
+
+
+<p>If your planning on going for a longer run, eat a more carb heavy meal some time before.</p>
+
+
+
+<p>For long paced runs snacks with high sugar and potassium can be a good choice to keep energy levels up during. </p>
+
+
+
+<p>Generally it&#8217;s not required to eat before a lift but you make not perform to your full extent, an energy drink before will do the drink in a pinch. </p>
+
+
+
+<p></p>
+</div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2026-02-23T20:11:28-05:00"><a href="/eat-differently/">23 February 2026</a></time></div>
 		</div>
 		
@@ -283,7 +377,21 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
 			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/volume-vs-consistency/" target="_self" >Volume vs Consistency</a></h2>
-			
+			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<div style="height:18px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Consistency is commonly regarded as more important than high volume when it comes to this similar programs. While volume does appear to be the less important of the two, it holds an important role. Volume is one of major factors in most training related injuries, by understanding your maximum effort and when to stop you can avoid injury. </p>
+
+
+
+<p>Consistency is the more important of the two to begin. If you struggle with showing up ready to go for training, consistency should be your only focus. If your in the gym at least once a week every week you will see progress.</p>
+
+
+
+<p></p>
+</div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2026-02-23T20:00:46-05:00"><a href="/volume-vs-consistency/">23 February 2026</a></time></div>
 		</div>
 		
@@ -291,8 +399,46 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
-			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/calendar-site/" target="_self" >What Split is best</a></h2>
-			
+			<h2 class="wp-block-post-title has-x-large-font-size"><a href="/calendar-site/" target="_self" >What Is The Best Split</a></h2>
+			<div class="entry-content alignfull wp-block-post-content has-medium-font-size has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<p>Choosing a split appears to be a diamonding task with so many to pick from it can be quite difficult to find the correct one.The most important thing when looking for split is &#8220;can i stick to this&#8221;  finding one that is flexible when starting out is recommended.</p>
+
+
+
+<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="has-text-align-left is-style-text-annotation is-style-text-annotation--5"> Below are three simple splits to get you started</p>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--6">3-Day Full Body</p>
+
+
+
+<p>Best for beginners or those with busy schedules. This split allows for 3 days of lifting, and 3-4 runs depending on your ability. This allows for at least 2 rest days.</p>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--7">4-Day Upper/ Lower Body</p>
+
+
+
+<p>The best for targeting pure muscle growth with some cardio training on the side.  Allows you to hit every muscle group effectively and provides ample time to recover, while still including cardio training, that be at a reduced volume.</p>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--8">4-2-1 </p>
+
+
+
+<p>This set is similar to the previous but adds a a day of mobility/ stretching during a rest day or off day. This can be a good option for beginners or when you extra tired and need a day off.  </p>
+
+
+
+<p></p>
+</div>
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2026-02-23T19:31:49-05:00"><a href="/calendar-site/">23 February 2026</a></time></div>
 		</div>
 		

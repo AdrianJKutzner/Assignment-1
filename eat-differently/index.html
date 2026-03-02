@@ -46,6 +46,18 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 .wp-block-post-terms{box-sizing:border-box}.wp-block-post-terms .wp-block-post-terms__separator{white-space:pre-wrap}
 /*# sourceURL=/wp-includes/blocks/post-terms/style.min.css */
 </style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+/*# sourceURL=/wp-includes/blocks/spacer/style.min.css */
+</style>
+<style id='wp-block-post-content-inline-css'>
+.wp-block-post-content{display:flow-root}
+/*# sourceURL=/wp-includes/blocks/post-content/style.min.css */
+</style>
 <style id='wp-block-post-navigation-link-inline-css'>
 .wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous{display:inline-block;margin-right:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next{display:inline-block;margin-left:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link.has-text-align-left[style*="writing-mode: vertical-lr"],.wp-block-post-navigation-link.has-text-align-right[style*="writing-mode: vertical-rl"]{rotate:180deg}
 /*# sourceURL=/wp-includes/blocks/post-navigation-link/style.min.css */
@@ -61,10 +73,6 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <style id='wp-block-post-template-inline-css'>
 .wp-block-post-template{box-sizing:border-box;list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container>li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}@media (max-width:600px){.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid{grid-template-columns:1fr}}.wp-block-post-template-is-layout-constrained>li>.alignright,.wp-block-post-template-is-layout-flow>li>.alignright{float:right;margin-inline-end:0;margin-inline-start:2em}.wp-block-post-template-is-layout-constrained>li>.alignleft,.wp-block-post-template-is-layout-flow>li>.alignleft{float:left;margin-inline-end:2em;margin-inline-start:0}.wp-block-post-template-is-layout-constrained>li>.aligncenter,.wp-block-post-template-is-layout-flow>li>.aligncenter{margin-inline-end:auto;margin-inline-start:auto}
 /*# sourceURL=/wp-includes/blocks/post-template/style.min.css */
-</style>
-<style id='wp-block-spacer-inline-css'>
-.wp-block-spacer{clear:both}
-/*# sourceURL=/wp-includes/blocks/spacer/style.min.css */
 </style>
 <style id='wp-block-columns-inline-css'>
 .wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
@@ -88,6 +96,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 :root :where(.wp-block-post-terms){font-size: var(--wp--preset--font-size--small);font-weight: 600;}:root :where(.wp-block-post-terms a){white-space: nowrap;}
 :root :where(.wp-block-post-title a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-post-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-separator){border-color: currentColor;border-width: 0 0 1px 0;border-style: solid;color: var(--wp--preset--color--accent-6);}
 :root :where(.wp-block-site-title){font-weight: 700;letter-spacing: -.5px;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
@@ -97,7 +106,10 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 /*# sourceURL=global-styles-inline-css */
 </style>
 <style id='block-style-variation-styles-inline-css'>
-:root :where(.is-style-post-terms-1--2 a:where(:not(.wp-element-button))){border-radius: 20px;border-color: var(--wp--preset--color--accent-6);border-width: 0.8px;border-style: solid;font-weight: 400;line-height: 2.8;padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;text-decoration: none;}:root :where(.is-style-post-terms-1--2 a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(p.is-style-text-subtitle--2){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(p.is-style-text-subtitle--3){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(p.is-style-text-subtitle--4){font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem);line-height: 1.2;}
+:root :where(.is-style-post-terms-1--5 a:where(:not(.wp-element-button))){border-radius: 20px;border-color: var(--wp--preset--color--accent-6);border-width: 0.8px;border-style: solid;font-weight: 400;line-height: 2.8;padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 10px;text-decoration: none;}:root :where(.is-style-post-terms-1--5 a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
 /*# sourceURL=block-style-variation-styles-inline-css */
 </style>
 <style id='wp-emoji-styles-inline-css'>
@@ -239,7 +251,65 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 </div>
 
 
-		
+		<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="height:9px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Eating differently is where most people fail in terms of this program. You must experiment and find what combos of food work for you based on trial and error, but this is a good starting point.</p>
+
+
+
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--2">Before Exercising </p>
+
+
+
+<p class="is-style-default">Before a workshop focus on getting a proper serving of carbohydrates before. For cardio heavy focus more on carbs and low fiber and fat to avoid discomfort while training. For a more lift centred days, you want a balance of protein and carbs, to help muscle repair and recovery.</p>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--3">Suggested Recipes</p>
+
+
+
+<p>Running- Banana, Jam W/ Toast, Oatmeal, Energy Bar </p>
+
+
+
+<p>Lifting &#8211; Greek Yogurt W/ Fruit, Chicken &amp; Rice, Eggs &amp; Toast</p>
+
+
+
+<div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="is-style-text-subtitle is-style-text-subtitle--4">Helpful Tips</p>
+
+
+
+<p>If your planning on going for a longer run, eat a more carb heavy meal some time before.</p>
+
+
+
+<p>For long paced runs snacks with high sugar and potassium can be a good choice to keep energy levels up during. </p>
+
+
+
+<p>Generally it&#8217;s not required to eat before a lift but you make not perform to your full extent, an energy drink before will do the drink in a pinch. </p>
+
+
+
+<p></p>
+</div>
 		
 		<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
